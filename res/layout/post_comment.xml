@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/post_comment_author"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >        
+    </EditText>
+
+    <EditText
+        android:id="@+id/post_comment_content"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/post_comment_author"
+        android:ems="10"
+        android:hint="Kommentar"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/post_comment_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/post_comment_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Abschicken" />
+
+</RelativeLayout>

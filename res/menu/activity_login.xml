@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/about" android:title="@string/about" />
+    <item android:id="@+id/menu_forgot_password" android:title="@string/menu_forgot_password" />
+</menu>

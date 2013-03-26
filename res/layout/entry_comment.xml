@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/comment_author"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment_label"
+        android:background="@color/comment_background"
+		android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/normal_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/comment_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/comment_author"
+        android:background="@color/comment_background"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/normal_text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/comment_meta"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"                
+        android:layout_gravity="right"
+        android:gravity="right"           
+        android:layout_below="@+id/comment_text"
+        android:background="@color/comment_background"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/normal_text"
+        android:textSize="12sp" />
+
+</RelativeLayout>

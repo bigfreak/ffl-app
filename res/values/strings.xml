@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FFL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_admin">Verwaltung</string>
+    <string name="title_activity_main">FFL-Bergheim</string>
+    <string name="title_activity_login">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Anmelden</string>
+    <string name="about">Über</string>
+    <string name="administration">Verwaltung</string>
+    <string name="logoff">Ausloggen</string>
+    <string name="title_activity_news_entry">NewsEntryActivity</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="dummy">dummy</string>
+    <string name="news_entry_image">news entry image</string>
+    <string name="refreshing">aktualisiere daten</string>
+    <string name="title_activity_fullscreen">FullScreen</string>
+
+    <color name="normal_text">#555555</color>
+    <color name="comment_background">#ECECEC</color>
+
+    <string name="title_activity_delete_comment">DeleteCommentActivity</string>
+
+</resources>
