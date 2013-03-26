@@ -1,6 +1,8 @@
 ffl-app
 =======
 
->Android App for http://www.ffl-bergheim.de
+Android App for http://www.ffl-bergheim.de
 
-Copyright by Daniel Bongartz
+This application is designed to optimize the user interface of the ffl-bergheim website for Android phones.
+
+> implementation by Daniel Bongartz and Roberth Mathes
